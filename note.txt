@@ -1,0 +1,36 @@
+The folder structure used in Next.js 13 is designed to be flexible and scalable. It is based on the following directories:
+
+
+/src
+├── APIRequest
+│   ├── APIRequest.js
+│   
+├── Component
+│   ├── Loader.jsx
+│   └── Header.js
+├── Layout
+│   ├── Layout.jsx
+│   
+├── Pages
+│   ├── Home.jsx
+│   └── About.jsx
+├── styles
+│   ├── globals.css
+│   
+/public
+    └── next.svg
+
+src: src directory is the root of the project. It contains all of the files and folders that make up the application.
+
+Pages: In page directory we will store pages. In this example the pages directory contains two pages: HomePage and About, each contributing to the application's user interface.
+
+Layout: The Layout directory is dedicated to a master Layout, orchestrating the overall structure and design consistency.
+
+APIRequest: The APIRequest directory contains API request/response related files for request and response handling, streamlining data communication.
+
+styles: The styles directory contains style files,  ensuring visual coherence throughout the application.
+
+public: The public directory stands as a repository for static assets, encompassing elements like the logo image.
+
+
+Component: This directory contains all of the custom components, each contributing to the application's modularity and reusability.
